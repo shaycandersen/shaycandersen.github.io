@@ -1,0 +1,212 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #DBD2E0; 
+    margin: 0px; 
+}
+nav {
+    padding: 10px;
+    font-size: 14px;
+    color: #635380;
+}
+nav ul {
+    display:flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+nav li:hover {
+    color: #4F6D7A; 
+}
+
+nav a {
+    text-decoration: none;
+    
+}
+
+.header {
+    margin: 0px;
+    text-align: center;
+    background-color: #88958D;
+    padding: 10px 5px;
+    color: #635380; 
+}
+
+.hero {
+    background-color: #88958D;
+}
+.hero img {
+    width: 90%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+    
+}
+.hero h6 {
+    text-align:right;
+    padding-bottom: 10px;
+    padding-right: 55px;
+    margin-top: 0px;
+    color: #635380;
+}
+
+.intro {
+    color: #635380;
+    text-align: center; 
+    padding: 1% 20%; 
+}
+
+.parent a {
+    text-decoration: none; 
+    color: #DBD2E0; 
+}
+
+.parent {
+    display: flex; 
+    justify-content: space-around;
+    text-align: center; 
+    color: #635380;
+    padding: 50px 25px; 
+}
+
+.blogphoto img, .aboutphoto img {
+    width: 400px; 
+}
+
+.blog, .about {
+    background-color: #88958D; 
+    padding: 50px 25px; 
+}
+
+.recoletaphoto img, .stockholmphoto img, .savannahphoto img, .greenwoodphoto img {
+    width: 400px; 
+    padding-top: 30px; 
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.recoleta, .stockholm, .savannah, .greenwood {
+    display: flex; 
+    border: 5px solid #88958D; 
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-top: 30px; 
+    background-color: #90708C;
+}
+
+.recoletainfo h5, .stockholminfo h5, .savannahinfo h5, .greenwoodinfo h5  {
+    border-top: 1px solid #88958D; 
+    padding-top: 5px;
+    color: #635380;
+}
+
+.recoletainfo h4, .stockholminfo h4, .savannahinfo h4, .greenwoodinfo h4 {
+    border-bottom: 1px solid #88958D; 
+    padding-bottom: 5px; 
+}
+
+.recoletainfo, .stockholminfo, .savannahinfo, .greenwoodinfo {
+    padding: 10px;
+    color: #DBD2E0;
+}
+
+.recoletainfo a, .stockholminfo a, .savannahinfo a, .greenwoodinfo a {
+    text-decoration: none; 
+    color: #4F6D7A; 
+    background-color: #88958D; 
+    padding: 8px 4px;
+}
+
+.recoletainfo a:hover, .stockholminfo a:hover, .savannahinfo a:hover, .greenwoodinfo a:hover {
+    text-decoration: none; 
+    color: #635380; 
+    background-color: #DBD2E0; 
+    padding: 8px 4px;
+}
+
+.seemore a {
+    background-color: #635380;
+    padding: 20px 10px;
+    color: #DBD2E0;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.seemore a:hover {
+    background-color: #4F6D7A;
+    color: #88958D; 
+}
+
+.seemore {
+    margin-top: 70px;
+    margin-bottom: 50px; 
+    margin-left: 45%;
+}
+
+.aboutme, .contactme {
+    display: flex; 
+    justify-content: space-around;
+    text-align: left; 
+    color: #635380;
+    padding: 50px 25px; 
+}
+
+.contactme {
+    margin-top: 0px; 
+}
+.aboutmephoto {
+    background-color: #4F6D7A; 
+    flex: 1; 
+    padding: 30px 30px; 
+    color: #DBD2E0; 
+}
+
+
+.aboutmewords {
+    background-color: #88958D; 
+    flex: 3; 
+    padding: 60px 20px; 
+}
+
+.aboutme h5 {
+    text-align: center; 
+}
+
+.aboutmephoto img {
+    width: 100%; 
+}
+
+.contactmephoto {
+    background-color: #4F6D7A; 
+    flex: 1; 
+    padding: 50px 30px; 
+    color: #DBD2E0; 
+}
+
+.contactme img {
+    width: 100%; 
+}
+
+.contactmewords {
+    background-color: #88958D; 
+    flex: 3; 
+    padding: 30px 20px; 
+}
+
+input {
+    padding: 10px 5px; 
+    width: 60%; 
+    margin-bottom: 20px; 
+}
+
+.thanks img {
+    width: 200px;  
+}
+.thanks {
+    color: #4F6D7A; 
+    text-align: center; 
+}
