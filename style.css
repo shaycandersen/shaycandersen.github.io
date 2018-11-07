@@ -1,8 +1,11 @@
+/* Font for project  */
 body {
     font-family: "Raleway", sans-serif;
     background-color: #DBD2E0; 
     margin: 0px; 
 }
+
+/* Nav Bar*/
 nav {
     padding: 10px;
     font-size: 14px;
@@ -30,7 +33,7 @@ nav a:hover {
 }
 
 
-
+/*  Home Page */
 .header {
     margin: 0px;
     text-align: center;
@@ -84,6 +87,8 @@ nav a:hover {
     background-color: #88958D; 
     padding: 50px 25px; 
 }
+
+/* Blog Page */
 
 .recoletaphoto img, .stockholmphoto img, .savannahphoto img, .greenwoodphoto img {
     width: 400px; 
@@ -150,6 +155,7 @@ nav a:hover {
     margin-left: 45%;
 }
 
+/* About Me page */
 .aboutme, .contactme {
     display: flex; 
     justify-content: space-around;
