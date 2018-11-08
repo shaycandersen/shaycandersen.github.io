@@ -1,0 +1,236 @@
+/* Project Font and Background */
+body {
+    font-family: 'Kodchasan', sans-serif;
+    color: #2762AF;
+    margin: auto;
+    min-width: 960px;
+}
+/* Navigation Bar created by Aretha Brown */
+nav a {
+  color: #2762AF;
+  text-decoration: none;
+}
+nav {
+    border: 1px solid none;
+    padding-bottom: 20px; 
+}
+
+nav a:hover {
+    color: #FA795F;
+}
+
+nav ul {
+  padding: 0px;
+  list-style-type: none;
+  justify-content: space-around;
+  display: flex;
+  text-decoration: none;
+}
+
+/* Index Page created by Aretha Brown */
+.childab {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+} 
+  
+.childab h1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.childab h2 {
+    text-align: center;
+    font-size:35px;
+}
+
+.parentab {
+    display: flex;
+    text-align: center;
+    background-color: #FDF2DB;
+}
+
+.aboutab {
+    border: 1px solid none;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.photoab {
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.aboutab h1 {
+    text-align: center;
+}
+
+
+.servicesab h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.servicesab h2 {
+    text-align: center;
+    font-size: 25px;
+}
+.servicesab {
+    text-align: center;
+}
+
+.daycareab {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    padding: 5%;
+}   
+
+.boardingab {
+    padding-left: 10%;
+}
+
+.groomingab {
+    padding-left: 10%;
+}
+
+.boardingab h2 {
+    padding-top: 25%;
+}
+
+
+/* Services Page created by Shay Andersen */
+
+#housecallsa {
+    text-align: center; 
+    background-color: #FDF2DB;
+    color: #2762AF;
+    margin-top: 0px; 
+    margin-bottom: 70px;
+    padding: 80px; 
+}
+
+#taglinesa {
+    text-align: center; 
+}
+
+.cleaningsa, .checkupsa, .groomingsa, .shotssa, .painsa, .behaviorsa {
+    padding: 2%;
+    width: 20%;
+    text-align:center;
+    color: #2762AF; 
+}
+
+.cleaningsa img {
+    width:100%;
+    margin-top: 20px;
+    border: 10px solid #FA795F; 
+}
+
+.cleaningsa a, .checkupsa a, .groomingsa a, .shotssa a, .painsa a, .behaviorsa a {
+    background-color:#2762AF; 
+    color:#FFFFFF; 
+    border: 1px solid #2762AF; 
+    padding: 10px 5px; 
+}
+
+.checkupsa img {
+    width:100%;
+    margin-top: 20px;
+    border: 10px solid #6DE4F7; 
+}
+
+.groomingsa img {
+    width:100%;
+    margin-top: 20px;
+    border: 10px solid #F9D54E; 
+}
+
+.firstsa, .secondsa {
+    display: flex; 
+    justify-content: space-around;
+    background-color: #FFFFFF; 
+}
+
+.secondsa {
+    margin-bottom: 150px; 
+}
+
+.shotssa img {
+    width:100%;
+    margin-top: 20px;
+    border: 10px solid #F9D54E; 
+}
+
+.painsa img {
+    width:100%;
+    margin-top: 20px;
+    border: 10px solid #FA795F; 
+}
+
+.behaviorsa img {
+    width:100%;
+    margin-top: 20px;
+    border: 10px solid #6DE4F7; 
+}
+
+/* About Page created by William Chimborazo */
+
+.titlewc {
+    color: #2762AF;
+    text-align: center;
+}
+
+.parentwc {
+    display:  flex;
+    padding: 2%;
+}
+
+/* images max width do not remove */
+    
+.parentwc img {
+    width: 48%;
+    height: 45%;
+    object-fit: fill;
+    max-width: 450px;
+}
+
+.parentwc p, h2{
+    text-align: left;
+    color: #2762AF;
+    padding: 2%;
+}
+
+.firstwc img {
+    width: 49%;
+    height: 42%;
+    max-width: 450px;
+}
+
+.firstwc p, h2{
+    text-align: left;
+    color: #2762AF;
+    padding: 2%;
+}
+  
+    
+
+.firstwc {
+    display: flex;
+    padding: 2%;
+}
+
+.puppywc {
+    letter-spacing: 0.1em;
+    line-height: 1.8em;
+    
+}
+
+/* check out letter spacing and line-height */
+/* About CSS page created by William Chimborazo */
